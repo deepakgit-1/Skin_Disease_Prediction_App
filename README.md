@@ -88,13 +88,17 @@ streamlit run app.py
  ## 📁 Project Structure
 
 Skin_Disease_Prediction_App/
-├── app.py                  # Streamlit app code
-├── model/                  # Trained CNN model files (.h5)
-├── data/                   # Sample test images or preprocessing scripts
-├── utils/                  # Utility functions (preprocessing, prediction, etc.)
-├── disease_info.json       # Contains details of each skin disease
-├── requirements.txt        # Required libraries
-└── README.md               # Project documentation
+├── app.py                 # Streamlit app main script
+├── model/                 # Directory for trained CNN model (.h5 files)
+│   └── skin_disease_model.h5
+├── data/                  # Directory for sample images or preprocessing scripts
+│   └── sample_image.jpg
+├── utils/                 # Utility functions (preprocessing, prediction helpers)
+│   └── helper.py
+├── disease_info.json      # JSON file with skin disease details
+├── requirements.txt       # List of required Python libraries
+└── README.md              # Project documentation
+
 
 
 ## 📜 License
