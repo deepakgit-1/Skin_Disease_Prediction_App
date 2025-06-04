@@ -65,7 +65,7 @@ This project leverages convolutional neural networks (CNNs) to classify images o
 ### 📦 Clone and Install
 
 git clone https://github.com/deepakgit-1/Skin_Disease_Prediction_App.git
-cd Skin_Disease_Prediction_App
+- cd Skin_Disease_Prediction_App
 pip install -r requirements.txt
 
 ## ▶️ Run the App
