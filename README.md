@@ -85,21 +85,6 @@ streamlit run app.py
 - Model trained using categorical cross-entropy loss
 - Metrics: Accuracy and Loss
 
- ## 📁 Project Structure
-
-Skin_Disease_Prediction_App/
-├── app.py                 # Streamlit app main script
-├── model/                 # Directory for trained CNN model (.h5 files)
-│   └── skin_disease_model.h5
-├── data/                  # Directory for sample images or preprocessing scripts
-│   └── sample_image.jpg
-├── utils/                 # Utility functions (preprocessing, prediction helpers)
-│   └── helper.py
-├── disease_info.json      # JSON file with skin disease details
-├── requirements.txt       # List of required Python libraries
-└── README.md              # Project documentation
-
-
 
 ## 📜 License
 This project is open-source and available under the MIT License.
