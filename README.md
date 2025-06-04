@@ -64,7 +64,39 @@ This project leverages convolutional neural networks (CNNs) to classify images o
 
 ### 📦 Clone and Install
 
-```bash
 git clone https://github.com/deepakgit-1/Skin_Disease_Prediction_App.git
 cd Skin_Disease_Prediction_App
 pip install -r requirements.txt
+
+## ▶️ Run the App
+streamlit run app.py
+
+## 🧠 Model Architecture
+- The model uses a custom CNN architecture, which includes:
+- Convolutional layers
+-Batch normalization
+- MaxPooling
+- Dropout for regularization
+- Dense layers for classification
+
+## ✅ Training
+- Dataset preprocessed (resized to 64x64 or 128x128)
+- Images normalized and augmented
+- Model trained using categorical cross-entropy loss
+- Metrics: Accuracy and Loss
+
+ ## 📁 Project Structure
+
+Skin_Disease_Prediction_App/
+├── app.py                  # Streamlit app code
+├── model/                  # Trained CNN model files (.h5)
+├── data/                   # Sample test images or preprocessing scripts
+├── utils/                  # Utility functions (preprocessing, prediction, etc.)
+├── disease_info.json       # Contains details of each skin disease
+├── requirements.txt        # Required libraries
+└── README.md               # Project documentation
+
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
